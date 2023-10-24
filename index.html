@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css" integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="bars">
+                <img src="icons/bars.svg" alt="">
+            </div>
+            <div class="side-icons">
+                <i>
+                    <img src="icons/home.svg" alt="">
+                    
+                </i>
+                <p>Home</p>
+            </div>
+            <div class="side-icons">
+                <i>
+                    <img src="icons/compass.svg" alt="">
+                    
+                </i>
+                <p>Explore</p>
+            </div>
+            <div class="side-icons">
+                <i>
+                    <img src="icons/video-gallary.svg" alt="">
+                    
+                </i>
+                <p>Subscription</p>
+            </div>
+            <div class="side-icons">
+                <i>
+                    <img src="icons/video-library.svg" alt="">
+                    
+                </i>
+                <p>Library</p>
+            </div>
+        </aside>
+        <div class="main-container">
+            <header>
+
+                <nav>
+                    <!--This is our logo-->
+                    <div class="logo">
+                        <img src="images/youtube-logo.png" alt="Youtube Logo">
+                    </div>
+        
+                    <!--This will contain our searchbar and mic option-->
+                    <div class="center-nav">
+        
+        
+                        <div class="search">
+                            <input type="text" placeholder="Search">
+                            <button>
+                                <img src="icons/search.svg" alt="search">
+                            </button>
+                        </div>
+                        <div class="mic">
+                            <img src="icons/mic.svg" alt="mic">
+                        </div>
+        
+        
+                        
+        
+                    </div>
+        
+                <!--side nav will be outer from center nav-->
+                <div class="side-nav">
+                    <i>
+                        <img src="icons/video-add.svg" alt="video add">
+                    </i>
+                    <i>
+                        <img src="icons/dot-grid.svg" alt="">
+                    </i>
+                    <i>
+                        <img src="icons/bell.svg" alt="">
+                    </i>
+                    <i>
+                        <img class="among-us-profile" src="images/person(2).png" alt="">
+                    </i>
+                </div>
+        
+                </nav>
+                <div class="tags">
+                    <div class="tag dark">All</div>
+                    <div class="tag light">Crypto</div>
+                    <div class="tag light">Mixes</div>
+                    <div class="tag light">Html</div>
+                    <div class="tag light">Css</div>
+                    <div class="tag light">Javascript</div>
+                </div>
+            </header>
+            <main>
+                <div class="card-container">
+                    
+                    <div class="card">
+                        
+                     <img src="https://i.ytimg.com/vi/awehNv1BKpU/hq720.jpg?sqp=-…AYgATgBQAE=&rs=AOn4CLC9fyrA8GoP0n2G2h97UWA1h4vzMA" alt="thumbnail">
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img class="profile-pic" id="img" draggable="false" class="style-scope yt-img-shadow" alt="" width="160" src="https://yt3.googleusercontent.com/towOWTBoExeb63XYp_Ol5v7qXZ5lEYhUyqhu-dFX2k-bznCGQ2uB37XxLqZgs0stCicWFMNjzw=s176-c-k-c0x00ffffff-no-rj">
+                            </div>
+    
+                            <div class="content">
+                                <h3>Code Faster By Coding Slow</h3>
+                                <p class="channel-name">bigboxSWE</p>
+                                <div class="content-status">
+                                    <p>11K • 1 day ago</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img style="margin-left: 20px;" src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="card">
+                        <img src="https://i.ytimg.com/vi/gooWdc6kb80/hq720.jpg?sqp=-oaymwEpCNAFEJQDSFryq4qpAxsIARUAAIhCGAHYAQHiAQwIGhACGAYgATgBQAE=&amp;rs=AOn4CLCIhh8rpobiq7pX22-wegpRCg1s8Q" alt="thumbnail">
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img class="profile-pic" id="img" draggable="false" class="style-scope yt-img-shadow" alt="" width="160" src="https://yt3.googleusercontent.com/ytc/APkrFKYdxcvqWuiLuJ_-azKqRA5ORvXE8CVswqcKYZBr=s176-c-k-c0x00ffffff-no-rj">
+                            </div>
+    
+                            <div class="content">
+                                <h3>Playing With Time</h3>
+                                <p class="channel-name">Macro Room ☑️</p>
+                                <div class="content-status">
+                                    <p>21M views • 2 years ago</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img class="bug" src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="card">
+                        <img src="https://i.ytimg.com/vi/kg1BljLu9YY/hq720.jpg?sqp=-…AYgATgBQAE=&rs=AOn4CLAswkTjVqmx0QD_ZlrYeCDz1airiA" alt="thumbnail">
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img class="profile-pic" id="img" draggable="false" class="style-scope yt-img-shadow" alt="" width="160" src="https://yt3.googleusercontent.com/4cFOo3R_D4gOVVJPEt8aoff-Fi2eRjM5Nxz5fDXpw0WS57go_buPi0kvhehvTnBZeF3qSmAT=s176-c-k-c0x00ffffff-no-rj">
+                            </div>
+    
+                            <div class="content">
+                                <h3>SD - Thunderclouds (Official Video) ft. Sia, Diplo, Labrinth</h3>
+                                <p class="channel-name">Sia 🎵</p>
+                                <div class="content-status">
+                                    <p>512M views • 5 years ago</p>
+                            
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="card">
+                        <img src="https://i.ytimg.com/vi/i2uglWVkZQo/hq720.jpg?sqp=-…AYgATgBQAE=&rs=AOn4CLDCcwRs3XBvMmAQ2-gKd6ajBPCWsw" alt="thumbnail">
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img class="profile-pic" id="img" draggable="false" class="style-scope yt-img-shadow" alt="" height="136" width="136" src="//yt3.ggpht.com/UZ0fAl93wBMHGjKCUu2WIv4USmRGhRPSSxkLvIVWyrrnd92FzCUBy5N9Jh1cf55OdnsRIKTa=s176-c-k-c0x00ffffff-no-rj-mo">
+                            </div>
+    
+                            <div class="content">
+                                <h3>iShowSpeed Takes His Drivers Test Live.. (terrible idea)</h3>
+                                <p class="channel-name">Live Speedy ☑️</p>
+                                <div class="content-status">
+                                    <p>589k views • 1 day ago</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="card">
+                        <img src="	https://i.ytimg.com/vi/3NSkk31vFbU/hq720.jpg?sqp=-…AYgATgBQAE=&rs=AOn4CLC7ZLUfukv6zG3Y58OgchoeveNdsg" alt="thumbnail">
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img class="profile-pic" id="img" draggable="false" class="style-scope yt-img-shadow" alt="" width="40" src="https://yt3.ggpht.com/ytc/APkrFKY7q4kE5pzjQliOw3rvjj7CdCoV5JHfm5d-9Fll8A=s88-c-k-c0x00ffffff-no-rj">
+                            </div>
+    
+                            <div class="content">
+                                <h3>Day In A Life Of Student (Harvard University)</h3>
+                                <p class="channel-name">Kharma Medic ☑️</p>
+                                <div class="content-status">
+                                    <p>11M views • 3 years ago</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="card">
+                        <img src="	https://i.ytimg.com/vi/dg2Ag3e8W-Q/hq720.jpg?sqp=-…RUAAIhCGAE=&rs=AOn4CLD0K7H7ZxSzr5c0iMjxb4OGCMPx5w" alt="thumbnail">
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img class="profile-pic" id="img" draggable="false" class="style-scope yt-img-shadow" alt="" width="40" src="https://yt3.ggpht.com/ytc/APkrFKbAfC_5NBQ3CM6Lyd2zXUFbC4mym1GCRhmpIwcMXg=s88-c-k-c0x00ffffff-no-rj">
+                            </div>
+    
+                            <div class="content">
+                                <h3>I Opened A Resturant That Pays You To Eat At All</h3>
+                                <p class="channel-name">MrBeast ☑️</p>
+                                <div class="content-status">
+                                    <p>170M views • 2 years ago</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="card">
+                        <img src="https://i.ytimg.com/vi/9kfScGV6W1Y/hq720.jpg?sqp=-…AYgATgBQAE=&rs=AOn4CLAeqyy9PHeVZzoav5MkvvJXtfP-eA" alt="thumbnail">
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img class="profile-pic" id="img" draggable="false" class="style-scope yt-img-shadow" alt="" width="40" src="https://yt3.ggpht.com/ytc/APkrFKYjWEcxIfNrPb2POd6mfjuVjkx40Aqun893SNtl8A=s88-c-k-c0x00ffffff-no-rj">
+                            </div>
+    
+                            <div class="content">
+                                <h3>Challenging Google's Top Feeder College Students? Ft. UC Berkeley</h3>
+                                <p class="channel-name">Singh in USA ☑️</p>
+                                <div class="content-status">
+                                    <p>3.4M views • 1 year ago</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="card">
+                        <img src="	https://i.ytimg.com/vi/mSjFQT_R4Cs/hq720.jpg?sqp=-…AYgATgBQAE=&rs=AOn4CLBX0KIXe7Cbu-nx5ebUJl8H4xrFMw" alt="thumbnail">
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img class="profile-pic" id="img" draggable="false" class="style-scope yt-img-shadow" alt="" width="40" src="https://yt3.ggpht.com/mO-SCDJLJ7R2lEgVQ8kPB9a5stxPm9xyMQUcEW7Ik7nbKeKfYSOQFI8iSMqKRD8gdGH8WtHKBA=s88-c-k-c0x00ffffff-no-rj">
+                            </div>
+    
+                            <div class="content">
+                                <h3 style="width: 100%;;">Competitive Programming vs Development @SanketSingh1</h3>
+                                <p class="channel-name">Striver</p>
+                                <div class="content-status">
+                                    <p>29k views • 1 year ago</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="card">
+                        <img src="https://i.ytimg.com/vi/pnZ8bRsjSAs/hq720.jpg?sqp=-…RUAAIhCGAE=&rs=AOn4CLCvdpB82k_rlAsm_QMFxY1fU2CG1Q" alt="thumbnail">
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img class="profile-pic" id="img" draggable="false" class="style-scope yt-img-shadow" alt="" width="40" src="https://yt3.ggpht.com/Z2eclosHDJBqAHRz_nvBbvnqXWCt1A30OKJlOOm8UwVYq_tLHlyyxzvwZFP7EnbpjgpFB-E1Mg=s88-c-k-c0x00ffffff-no-rj">
+                            </div>
+    
+                            <div class="content">
+                                <h3>MrBeast vs T-seires</h3>
+                                <p class="channel-name">Straight from MG ☑️<span style="background: red; color: white; font-weight: 400; padding: 2px 10px; margin-left: 15px;"> Live</span></p>
+                                <div class="content-status">
+                                    <p>6 watching</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="card">
+                        <img src="https://i.ytimg.com/vi/UFva3-FxRTE/hq720.jpg?sqp=-…AYgATgBQAE=&rs=AOn4CLAyiSaweVDOcUCACa1QBYdQ1azASw" alt="thumbnail">
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img class="profile-pic" id="img" draggable="false" class="style-scope yt-img-shadow" alt="" width="40" src="https://yt3.ggpht.com/hHedIzaLmlpo5WsrSHDx_5orCRbgsyAWGzJPGOPd7Y3Mztv-BLezQLxWxI2p0Ypc1bUZGcA7pMc=s88-c-k-c0x00ffffff-no-rj">
+                            </div>
+    
+                            <div class="content">
+                                <h3>Ice Cream Rolls | Cadbury - Dairy Milk Chocolate Ice Cream</h3>
+                                <p class="channel-name">Ice Cream Rolls ☑️</p>
+                                <div class="content-status">
+                                    <p>75M views • 5 years ago</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="card">
+                        <img src="	https://i.ytimg.com/vi/rvQ9DjJNal0/hq720.jpg?sqp=-…AYgATgBQAE=&rs=AOn4CLDrqhJs5EVQvGYcY87ZPzAeG2bmpg" alt="thumbnail">
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img class="profile-pic" id="img" draggable="false" class="style-scope yt-img-shadow" alt="" width="40" src="https://yt3.ggpht.com/ytc/APkrFKZhaKeKKpdF7Xx8Psy8LBjriuDSEueQXhfYtYBF2w=s88-c-k-c0x00ffffff-no-rj">
+                            </div>
+    
+                            <div class="content">
+                                <h3>Flying To McDonal's On My Paramotor</h3>
+                                <p class="channel-name">Tucker Gott ☑️</p>
+                                <div class="content-status">
+                                    <p>47M views • 6 years ago</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="card">
+                        <img src="	https://i.ytimg.com/vi/86qBAryeFco/hq720.jpg?sqp=-…RUAAIhCGAE=&rs=AOn4CLCrI8E_fokEoqrwVYhsc6i1TIXcZQ" alt="thumbnail">
+                        <div class="avatar-content">
+                            <div class="avatar">
+                                <img class="profile-pic" id="img" draggable="false" class="style-scope yt-img-shadow" alt="" width="160" src="https://yt3.googleusercontent.com/ytc/APkrFKZTymxhzZa8E2Qr33kNVGbAwFV4aFQOSnIIwduphA=s176-c-k-c0x00ffffff-no-rj">
+                            </div>
+    
+                            <div class="content">
+                                <h3>0 - 100 years in USA</h3>
+                                <p class="channel-name">ImageVideoClips ☑️</p>
+                                <div class="content-status">
+                                    <p>28M views • 6 years ago</p>
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <img class="bug" src="icons/dots.svg" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
